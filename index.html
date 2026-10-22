@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Josh Delon | Portfolio</title>
+    <meta name="description"
+        content="Portfolio of Josh Delon, Electrical Engineering graduate with experience in networking, cloud infrastructure, IoT, and automation.">
+    <link rel="stylesheet" href="style.css">
+    <!-- Font awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="background-effects">
+        <div class="glow glow-1"></div>
+        <div class="glow glow-2"></div>
+    </div>
+
+    <header>
+        <div class="logo">
+            <i class="fa-solid fa-j"></i>
+            <div class="logo-text">Josh Delon</div>
+        </div>
+        <nav>
+            <div class="togglebtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="navlinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container" id="home">
+        <div class="hero-text">
+            <h5>Hello, I am an <span class="input">Electrical Engineering Graduate</span></h5>
+            <h1>Josh <span>Delon</span></h1>
+            <p>Electrical Engineering graduate with hands-on experience in networking, cloud infrastructure, IoT, and
+                automation using AWS, Terraform, and Linux.</p>
+
+            <div class="btn-group">
+                <a href="Josh Delon cv.pdf" class="btn active" download>Download CV</a>
+                <a href="#contact" class="btn">Contact Me</a>
+            </div>
+
+            <div class="social">
+                <a href="https://www.linkedin.com/in/josh-delon-tambunan-55785727a/" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://www.instagram.com/joshtbn_?igsh=MTkxa2dobGVlNDdvMw==" target="_blank"
+                    rel="noopener noreferrer">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://github.com/JoshDelon-Tambunan" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://wa.me/+62082261022927" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+        <div class="hero-pic">
+            <img src="images/main_photho.jpg" alt="Josh Delon">
+        </div>
+    </div>
+
+    <!-- About Me Section -->
+    <section id="about" class="section-padding">
+        <div class="section-header">
+            <h2>About <span>Me</span></h2>
+        </div>
+        <div class="about-content">
+            <div class="about-pic">
+                <img src="images/Wisuda.jpeg" alt="Josh Delon About">
+            </div>
+            <div class="about-text glass-card">
+                <p>I am an Electrical Engineering graduate from Institut Teknologi Del. I have a strong passion for
+                    integrating hardware and software to build innovative solutions. My journey includes active
+                    participation in the Del Robotics Club and serving as a leader in student organizations.</p>
+                <p>I have hands-on experience in IoT development, designing real-time monitoring systems, cloud
+                    infrastructure using AWS and Terraform, and implementing automation. I am proactive, eager to learn,
+                    and always looking for challenges in the world of technology and engineering.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-padding">
+        <div class="section-header">
+            <h2>My <span>Skills</span></h2>
+            <p>Technologies and tools I work with to bring ideas to life.</p>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-card glass-card">
+                <i class="fa-solid fa-microchip"></i>
+                <h3>IoT & Electronics</h3>
+                <p>Arduino IDE, Python, PCB Design (Eagle, Proteus), ESP32, Raspberry Pi.</p>
+            </div>
+            <div class="skill-card glass-card">
+                <i class="fa-solid fa-cloud"></i>
+                <h3>Cloud & DevOps</h3>
+                <p>AWS (EC2, S3, Lambda, RDS), Containerization (Docker, Kubernetes), Terraform, AWS CDK.</p>
+            </div>
+            <div class="skill-card glass-card">
+                <i class="fa-solid fa-network-wired"></i>
+                <h3>Networking</h3>
+                <p>Cisco Packet Tracer, VirtualBox, Ubuntu, Kali Linux, MikroTik VPN.</p>
+            </div>
+            <div class="skill-card glass-card">
+                <i class="fa-solid fa-code"></i>
+                <h3>Programming</h3>
+                <p>C, Python, JavaScript, SQL, HTML, CSS, Flask.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Section -->
+    <section id="project" class="section-padding">
+        <div class="section-header">
+            <h2>Featured <span>Projects</span></h2>
+            <p>Some of my recent work in IoT, Cloud, and Engineering.</p>
+        </div>
+        <div class="project-container">
+            <!-- Project 1 -->
+            <div class="project-card glass-card">
+                <div class="project-icon"><i class="fa-solid fa-seedling"></i></div>
+                <h3>Real-Time Hydroponics IoT</h3>
+                <p>Designed an Edge-IoT system using ESP32 and Raspberry Pi 4 to monitor pH and EC in real-time.
+                    Processed data via MQTT, InfluxDB, and visualized on Grafana with Telegram alerts.</p>
+                <div class="project-tags">
+                    <span>ESP32</span><span>Grafana</span><span>MQTT</span>
+                </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="project-card glass-card">
+                <div class="project-icon"><i class="fa-solid fa-server"></i></div>
+                <h3>Cloud Infrastructure Developer</h3>
+                <p>Built a private cloud storage infrastructure on AWS EC2 using Terraform for IaC. Developed a Flask
+                    backend for cross-device file management using Amazon S3.</p>
+                <div class="project-tags">
+                    <span>AWS</span><span>Terraform</span><span>Python Flask</span>
+                </div>
+            </div>
+            <!-- Project 3 -->
+            <div class="project-card glass-card">
+                <div class="project-icon"><i class="fa-solid fa-solar-panel"></i></div>
+                <h3>Solar Energy Monitoring</h3>
+                <p>Implemented an IoT-based system for off-grid greenhouses to monitor solar panel power output and
+                    battery health using ESP32, INA219, and MQTT to a local server.</p>
+                <div class="project-tags">
+                    <span>IoT</span><span>ESP32</span><span>Sensors</span>
+                </div>
+            </div>
+            <!-- Project 4 -->
+            <div class="project-card glass-card">
+                <div class="project-icon"><i class="fa-solid fa-bolt"></i></div>
+                <h3>Energy Consumption Monitoring</h3>
+                <p>Developed an IoT solution connecting SCT-013 and ZMPT101B sensors to ESP32 for building energy
+                    monitoring, visually displayed on the Blynk app with 95% accuracy.</p>
+                <div class="project-tags">
+                    <span>Blynk</span><span>Hardware</span><span>ESP32</span>
+                </div>
+            </div>
+            <!-- Project 5 -->
+            <div class="project-card glass-card">
+                <div class="project-icon"><i class="fa-solid fa-network-wired"></i></div>
+                <h3>VPN Integration using MikroTik</h3>
+                <p>Merancang dan mengimplementasikan arsitektur Site-to-Site & Remote-Access VPN menggunakan MikroTik.</p>
+                <div class="project-tags">
+                    <span>Network Engineering</span><span>Routing</span><span>MikroTik</span>
+                </div>
+            </div>
+            <!-- Project 6 -->
+            <div class="project-card glass-card">
+                <div class="project-icon"><i class="fa-solid fa-robot"></i></div>
+                <h3>Pengembangan Sistem Kendali Robot</h3>
+                <p>Pengembangan sistem kendali robot. Proyek ini bertujuan untuk membangun antarmuka pengguna grafis (GUI) menggunakan Python.</p>
+                <div class="project-tags">
+                    <span>Python</span><span>GUI</span><span>Robotics</span>
+                </div>
+            </div>
+            <!-- Project 7 -->
+            <div class="project-card glass-card">
+                <div class="project-icon"><i class="fa-solid fa-droplet"></i></div>
+                <h3>Aqua Monitoring System using AWS</h3>
+                <p>Reviewed and analyzed a technical paper on IoT and Cloud Computing for Aqua Monitoring System using AWS.</p>
+                <div class="project-tags">
+                    <span>Cloud Computing</span><span>IoT</span><span>AWS</span>
+                </div>
+            </div>
+            <!-- Project 8 -->
+            <div class="project-card glass-card">
+                <div class="project-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                <h3>Sistem Informasi Akademik Web</h3>
+                <p>Perancangan dan Implementasi Sistem Informasi Akademik (SIA) berbasis web untuk SMK.</p>
+                <div class="project-tags">
+                    <span>HTML5</span><span>CSS</span><span>Web Dev</span>
+                </div>
+            </div>
+        </div>
+        <div class="github-link">
+            <a href="https://github.com/JoshDelon-Tambunan" target="_blank" class="btn">
+                <i class="fa-brands fa-github"></i> See more on GitHub
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding">
+        <div class="section-header">
+            <h2>Get In <span>Touch</span></h2>
+            <p>Feel free to reach out for collaborations or inquiries.</p>
+        </div>
+
+        <div class="contact-wrapper">
+            <div class="contact-info glass-card">
+                <h3>Contact Information</h3>
+                <ul>
+                    <li><i class="fa-solid fa-phone"></i> <a href="tel:+62082261022927">+62 082261022927</a></li>
+                    <li><i class="fa-solid fa-envelope"></i> <a
+                            href="mailto:joshdelon990@gmail.com">joshdelon990@gmail.com</a></li>
+                    <li><i class="fa-solid fa-location-dot"></i> Jakarta Timur, Indonesia</li>
+                </ul>
+            </div>
+
+            <div class="contact-form glass-card">
+                <form id="contact-form" action="#" method="POST" onsubmit="return validateForm(event)">
+                    <div class="input-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required placeholder="John Doe">
+                    </div>
+                    <div class="input-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required placeholder="john@example.com">
+                    </div>
+                    <div class="input-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required placeholder="Write your message..."></textarea>
+                    </div>
+                    <button type="submit" class="btn active">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Josh Delon. All Rights Reserved.</p>
+        <div class="footer-social">
+            <a href="https://www.linkedin.com/in/josh-delon-tambunan-55785727a/" target="_blank"><i
+                    class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/joshtbn_?igsh=MTkxa2dobGVlNDdvMw==" target="_blank"><i
+                    class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/JoshDelon-Tambunan" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+
+    <!-- Typed.js for typing text effect -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+    <script>
+        // Toggle navbar
+        var togglebtn = document.querySelector(".togglebtn");
+        var nav = document.querySelector(".navlinks");
+
+        togglebtn.addEventListener("click", function () {
+            this.classList.toggle("click");
+            nav.classList.toggle("open");
+        });
+
+        // Typed.js effect
+        var typed = new Typed(".input", {
+            strings: ["Electrical Engineering Graduate", "IoT Enthusiast", "Cloud Engineer", "Network Specialist"],
+            typeSpeed: 70,
+            backSpeed: 55,
+            loop: true
+        });
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                nav.classList.remove("open");
+                togglebtn.classList.remove("click");
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Scroll reveal animation
+        const sections = document.querySelectorAll('section, .hero-text, .hero-pic');
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        sections.forEach(section => {
+            observer.observe(section);
+        });
+
+        // Form validation
+        function validateForm(e) {
+            e.preventDefault();
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+
+            if (name === "" || email === "" || message === "") {
+                alert("Please fill out all fields.");
+                return false;
+            }
+            alert("Thank you for your message! (Demo form)");
+            return true;
+        }
+    </script>
+</body>
+
+</html>
